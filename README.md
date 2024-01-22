@@ -15,8 +15,8 @@ This Laravel project demonstrates the generation of an invoice detailing consump
 1. Clone the project:
 
     ```bash
-    git clone https://github.com/your-username/laravel-invoice-project.git
-    cd laravel-invoice-project
+    git clone https://github.com/cesarschefer/tenet.git
+    cd tenet
     ```
 
 2. Create a new database in your `.env` file. For example:
@@ -60,7 +60,8 @@ php artisan test
 ### Key Features and Practices
 
 Applied the Single Responsibility Principle (S in SOLID) by introducing a dedicated InvoiceService to encapsulate the logic for calculating invoices. This service appears to have the responsibility of handling the calculation of costs for different services.
-Design Patterns: 
+
+### Design Patterns: 
 The ServiceFactory and ConsumptionFactory are factory classes responsible for creating instances of the Service and Consumption models, respectively. (Factory)
 The Service and Consumption classes extend the Model class provided by Eloquent. (Active Record)
 
