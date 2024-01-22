@@ -16,6 +16,7 @@ This Laravel project demonstrates the generation of an invoice detailing consump
 
     ```bash
     git clone https://github.com/cesarschefer/tenet.git
+    git checkout devel
     cd tenet
     ```
 
